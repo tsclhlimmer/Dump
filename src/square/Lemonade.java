@@ -29,4 +29,9 @@ public class Lemonade
 		else priceTotal = cups*small;
 		return priceTotal;
 	}
+	
+	public String toString()
+	{
+		return "The price is: " + price();
+	}
 }

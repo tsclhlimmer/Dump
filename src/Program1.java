@@ -20,7 +20,7 @@ public class Program1
 		
 		Lemonade price = new Lemonade(5, 3);
 		
-		System.out.print(price);
+		System.out.print(price.toString());
 	}
 
 }
