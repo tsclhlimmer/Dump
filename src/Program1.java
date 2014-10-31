@@ -12,6 +12,10 @@ public class Program1
 		// TODO Auto-generated method stub
 		
 		System.out.println("Hello World!");
+		int x = 1;
+		int y = 1;
+		
+		System.out.println(x+y);
 
 	}
 
