@@ -1,3 +1,4 @@
+import square.*;
 
 public class Program1
 {
@@ -16,7 +17,10 @@ public class Program1
 		int y = 1;
 		
 		System.out.println(x+y);
-
+		
+		Lemonade price = new Lemonade(5, 3);
+		
+		System.out.print(price);
 	}
 
 }
